@@ -51,15 +51,6 @@
   padding: 160px 0 50px 0;
   background-color: rgba($primary, 0.2);
 }
-
-.shape {
-  position: absolute;
-  pointer-events: none;
-  right: 0;
-  bottom: 0px;
-  left: 0;
-}
-
 .subscribe-form {
   form {
     position: relative;
@@ -69,20 +60,17 @@
   input {
     padding: 15px 20px;
     width: 100%;
-    font-size: 17px;
+    font-size: 14px;
     color: $dark ;
     border: none;
     outline: none;
-    padding-right: 180px;
-    padding-left: 30px;
     background-color: rgba($white, 0.85);
     border-radius: 30px;
   }
   button {
     position: absolute;
-    text-transform: uppercase;
-    top: 6px;
-    right: 8px;
+    top: 3px;
+    right: 10px;
     outline: none;
     border-radius: 30px;
     font-size: 16px;

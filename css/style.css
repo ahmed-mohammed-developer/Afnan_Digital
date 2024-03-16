@@ -898,10 +898,13 @@ ul.pattern .color6 {
   box-shadow: 0px 0px 5px 2px #3f8efc;
 }
 .timeline-page .works-description-left::after {
-  right: -7px;
+  left: 0px;
+  transform: translateX(-7px);
 }
 .timeline-page .works-description-right::after {
-  left: -8px;
+  right: 0px;
+  left: 0px;
+  transform: translateX(7px);
 }
 
 @media (min-width: 200px) and (max-width: 991.98px) {
@@ -910,14 +913,16 @@ ul.pattern .color6 {
   }
   .timeline-item .works-description-right::after {
     left: 5px;
-    top: 25px;
+    top: 18px;
+    transform: translateX(-5px);
   }
   .timeline-item .works-description-left {
     text-align: left;
   }
   .timeline-item .works-description-left::after {
-    left: 5px;
     top: 25px;
+    transform: translateX(50%);
+    right: 12px;
   }
 }
 .bg-cta {

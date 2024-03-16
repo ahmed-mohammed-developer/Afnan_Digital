@@ -63,15 +63,20 @@
   }
   .works-description-left {
     &::after {
-      right: -7px;
+      left: 0px;
+      transform: translateX(-7px);
     }
   }
   .works-description-right {
     &::after {
-      left: -8px;
+      right: 0px;
+      left: 0px;
+      transform: translateX(7px);
     }
   }
 }
+
+
 
 @media (min-width: 200px) and (max-width: 991.98px) {
   .timeline-page {
@@ -83,14 +88,16 @@
     .works-description-right {
       &::after {
         left: 5px;
-        top: 25px;
+        top: 18px;
+        transform: translateX(-5px);
       }
     }
     .works-description-left {
       text-align: left;
       &::after {
-        left: 5px;
         top: 25px;
+        transform: translateX(50%);
+        right: 12px;
       }
     }
   }

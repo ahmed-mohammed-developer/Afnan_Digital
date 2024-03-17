@@ -1062,6 +1062,11 @@ ul.pattern .color6 {
   border-radius: 50%;
 }
 
+@media (max-width: 325px) {
+  .price-box {
+    padding-inline: 10px;
+  }
+}
 .team-box img {
   height: 210px;
   width: 210px;
@@ -1118,6 +1123,9 @@ ul.pattern .color6 {
 }
 .contact-form .form-control {
   padding-left: 58px;
+}
+.contact-form .form-control::placeholder {
+  float: right;
 }
 
 .social-list .social-icon {

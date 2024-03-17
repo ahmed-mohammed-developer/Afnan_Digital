@@ -46,3 +46,8 @@
   right: -60px;
   border-radius: 50%;
 }
+@media (max-width: 325px) { 
+  .price-box {
+    padding-inline: 10px;
+ }
+}
